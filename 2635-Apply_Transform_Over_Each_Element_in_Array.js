@@ -9,5 +9,6 @@ var map = function(arr, fn) {
         const result = fn(arr[i], i);
         newArr.push(result);
     }
+    
     return newArr;
 };
